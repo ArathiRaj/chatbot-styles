@@ -1,0 +1,40 @@
+/* Custom background color for the chat window */
+.bpw-webchat {
+  background-color: #f5f5f5;
+}
+
+/* Custom font and size for messages */
+.bpw-bubble,
+.bpw-bubble-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Style for the header */
+.bpw-header {
+  background-color: #3B5D50; /* Green color */
+  color: white;
+}
+
+/* Custom style for the chatbot button */
+.bpw-chat-button {
+  background-color: #3B5D50; /* Green background */
+  border-radius: 50%;
+  color: white;
+}
+
+/* Custom style for the chatbot enquiry text button */
+.bpw-button {
+  background-color: #3B5D50; /* Green button background */
+  color: white; /* White text color */
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bpw-button:hover {
+  background-color: #2e4a40; /* Darker green on hover */
+}
